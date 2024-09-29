@@ -6,4 +6,10 @@ module.exports = {
         };
         return config;
     },
+    output: 'export',
+    basePath: '/StartUp_2024',  // Add this line
+    assetPrefix: '/StartUp_2024/', // Add this line
+    images: {
+        unoptimized: true,
+    },
 }
