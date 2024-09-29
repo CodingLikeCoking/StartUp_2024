@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
+import { Button } from "@/src/components/ui/button"
+import { Input } from "@/src/components/ui/input"
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/src/components/ui/tabs"
 import { ChevronDown, ChevronRight, Menu, Search, User, X, MessageSquare, ThumbsUp } from "lucide-react"
 import Link from 'next/link'
 import Image from 'next/image'
